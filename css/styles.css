@@ -1,0 +1,63 @@
+header { 
+    background: rgb(244, 244, 244);
+    width: 100%;
+    padding: 1em
+}
+
+h1 {
+    font-size: 3em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 1px;
+    margin-inline-end: 1px;
+}
+
+body { 
+    background-color: rgb(231, 229, 229);
+    color: rgb(6, 6, 40); 
+    font-family: Georgia, Times, "Times New Roman", serif;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    background-color: black;
+}
+
+nav a:hover {
+    background-color: red;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 1px;
+    margin-inline-end: 1px;
+}
+
+img { 
+    max-width: 1000px;
+    max-height: 500px;
+    margin-block-start: 2em;
+    margin-block-end: 2em;
+    margin-inline-start: 2px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
